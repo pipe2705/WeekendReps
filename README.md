@@ -56,6 +56,7 @@ fork/clone/etc -- u know what to do
   console.log(a __ b);
   console.log(c __ d);
   console.log('Name' __ 'Name');
+  // FOR THE NEXT TWO, USE ONLY && OR ||
   console.log(true __ false);
   console.log(false __ false __ false __ false __ false __ false __ true);
   console.log(false __ false)
@@ -356,7 +357,7 @@ console.log(calculateCube(5));
 
 ### D. `isVowel`
 
-Write a function `isVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
+Write a function `isVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.  Test your function on every vowel and make sure it's working.
 
 ```javascript
 console.log(isVowel("a"));
@@ -369,7 +370,7 @@ console.log(isVowel("a"));
 
 ### E. `getTwoLengths`
 
-Write a function `getTwoLengths` that accepts two parameters (strings). The function should return an _array_ of numbers where each number is the length of the corresponding string.
+Write a function `getTwoLengths` that accepts two parameters (strings). The function should **return** an _array_ of numbers where each number is the length of the corresponding string.
 
 ```javascript
 console.log(getTwoLengths("Hank", "Hippopopalous"));
@@ -381,7 +382,7 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 ### F. `getMultipleLengths`
 
-Write a function `getMultipleLengths` that accepts a single parameter as an argument: an **array** of **strings**. The function should return an array of **numbers** where each number is the length of the corresponding string.
+Write a function `getMultipleLengths` that accepts a single parameter as an argument: an **array** of **strings**. The function should **return** an array of **numbers** where each number is the length of the corresponding string.
 
 ```javascript
 console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
@@ -394,13 +395,15 @@ console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 
 ### G. `maxOfThree`
 
-Define a function `maxOfThree` that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
+Define a function `maxOfThree` that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.  Be sure to test it with larger values in each of the three locations.  
 
 ```javascript
 console.log(maxOfThree(6, 9, 1));
 ```
 
 > => 9
+
+Did you use Google and find `Math.max()`?  If so, great job! Very resourceful—keep looking stuff up!  However, for this particular question, we need you to submit a solution that **does not** use `Math.max()`.
 
 :red_circle: Commit.
 
