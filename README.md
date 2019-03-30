@@ -62,7 +62,7 @@ Competencies: Data types, loops, arrays, functions, scope, objects
   console.log(false __ false __ false __ false __ false __ true);
   console.log(false __ false)
   console.log(e ___ 'Kevin');
-  console.log(a __ b ___ c); // note: a < b < is NOT CORRECT and NOT A VALID JS EXPRESSION
+  console.log(a __ b ___ c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression)
   console.log(a __ a ___ d); // note: the answer is a simple arithmetic equation, not something "weird"
   console.log(48 __ '48');
 ```
