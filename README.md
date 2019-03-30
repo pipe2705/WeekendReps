@@ -81,11 +81,9 @@ Competencies: Data types, loops, arrays, functions, scope, objects
 
 ### E. Driver's Ed
 
-1. Make a variable that will hold a person's age. Be semantic.
+1. Make a variable that holds a person's age. Be semantic.
 
-2. Write code that will print out "Here are the keys", if the age is 16 years or older.
-
-3. If the age is younger than 16, a message should print "Sorry, you're too young."
+2. Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
 
 :red_circle: Commit.
 
@@ -110,7 +108,7 @@ This is NO GOOD: for(i = 0; i < 100; i++)
 
 ### B. Get even
 
-1. Print out the even numbers that are within the range of 1 - 100.
+1. Print out the numbers that are within the range of 1 - 100.
 
 2. Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
 
@@ -360,7 +358,7 @@ console.log(calculateCube(5));
 
 ### D. `isVowel`
 
-Write a function `isVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.  Test your function on every vowel and make sure it's working.
+Write a function `isVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.  **Test your function on every vowel and make sure it's working.**  In general, when you write functions, take a minute to test them with different values to make sure they behave the way you want. 
 
 ```javascript
 console.log(isVowel("a"));
@@ -385,7 +383,7 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 ### F. `getMultipleLengths`
 
-Write a function `getMultipleLengths` that accepts a single parameter as an argument: an **array** of **strings**. The function should **return** an array of **numbers** where each number is the length of the corresponding string.
+Write a function `getMultipleLengths` that accepts a single parameter as an argument: an **array** of **strings**. The function should **return** an **array** of **numbers** where each number is the length of the corresponding string.
 
 ```javascript
 console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
@@ -447,11 +445,11 @@ console.log(transmogrify(5, 3, 2));
 
 See if you can do it without googling.
 
-Remember: Jim showed you today that you can index directly into a string: 
+Remember: You can index directly into a string: 
 ```js
-"hello world"[6]
+"hello world"[7]
 ```
-> `=> "w"`
+> `=> "o"`
 
 That and basic loops and variables and arrays are all you need to solve this without the Array methods.
 
@@ -469,11 +467,11 @@ console.log(reverseWordOrder("I use Lâncome on my comb"));
 
 ### K. Get down and dirty with `Math.random()`
 
-1.  Write a function that will return a random integer between 1 and 10. Test it.
-2.  Write a function that will return a random integer between 10 and 100. Test it.
-3.  Write a function that will return a random number between 532 and 13267. Test it.
-4.  Write a function that will return a random number between 1 and 10. Test it.
-5.  Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, and return a random element from that array.  Call your function a few times, passing in the quotes array.  Give it a nice semantic name like `getRandomElement`.
+1.  Write a **function** that will return a random integer between 1 and 10. Test it.
+2.  Write a **function** that will return a random integer between 10 and 100. Test it.
+3.  Write a **function** that will return a random number between 532 and 13267. Test it.
+4.  Write a **function** that will return a random number between 1 and 10. Test it.
+5.  Add a few more quotes to the quotes array from question III-B-1 above. Write a **function** that will take an array as a parameter, and return a random element from that array.  Call your function a few times, passing in the quotes array.  Give it a nice semantic name like `getRandomElement`.
 
 :red_circle: Commit.
 
