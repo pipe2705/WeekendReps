@@ -12,8 +12,9 @@ Competencies: Data types, loops, arrays, functions, scope, objects
 
 ## Setup
 
-fork/clone/etc -- u know what to do
+* Fork/clone/etc -- you know what to do!
 
+* For every question, **MAKE SURE THAT YOUR CODE RUNS WITHOUT ERRORS IN THE CONSOLE.**  Keep resaving reloading your browser after every bit of code you write, and fix all errors as soon as you spot them/before moving on.  
 
 ## I. Variables & Datatypes
 
@@ -44,7 +45,7 @@ fork/clone/etc -- u know what to do
 :red_circle: Commit.
 
 ### C. Booleans
-- Using the provided variable definitions, replace the blanks so that all log statements print `true` in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print `true` to the console.
+- Using the provided variable definitions, replace the blanks so that all log statements print `true` in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print `true` to the console. 
 
 ```js
   const a = 4;
