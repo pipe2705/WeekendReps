@@ -58,11 +58,11 @@ fork/clone/etc -- u know what to do
   console.log('Name' __ 'Name');
   // FOR THE NEXT TWO, USE ONLY && OR ||
   console.log(true __ false);
-  console.log(false __ false __ false __ false __ false __ false __ true);
+  console.log(false __ false __ false __ false __ false __ true);
   console.log(false __ false)
   console.log(e ___ 'Kevin');
-  console.log(a __ b ___ c);
-  console.log(a __ a ___ d);
+  console.log(a __ b ___ c); // note: a < b < is NOT CORRECT and NOT A VALID JS EXPRESSION
+  console.log(a __ a ___ d); // note: the answer is a simple arithmetic equation, not something "weird"
   console.log(48 __ '48');
 ```
 
@@ -93,9 +93,9 @@ fork/clone/etc -- u know what to do
 
 Remember: **USE `let` when you initialize your for loops!**
 
-This is GOOD: `for(`**`let i = 0;`**` i < 100; i++)`
+This is GOOD: for(**let i = 0;** i < 100; i++)
 
-This is NO GOOD: `for(i = 0; i < 100; i++)`
+This is NO GOOD: for(i = 0; i < 100; i++)
 
 ### A. The basics
 
@@ -136,6 +136,8 @@ I found a 6. Three is a crowd
 I found a 9. Three is a crowd
 I found a 10. High five!
 ```
+
+3. For numbers divisible by _both three and five_, be sure your code prints both messages.
 
 :red_circle: Commit.
 
