@@ -102,7 +102,7 @@ This is NO GOOD: for(i = 0; i < 100; i++)
 
 2. Write a loop that will print out all the numbers from 10 up to and including 400.
 
-3. Write a loop that will print out every third number starting with 12 and going no higher than 4000.
+3. Write a loop that will print out every third number starting with 11 and going no higher than 4000.
 
 :red_circle: Commit.
 
