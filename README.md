@@ -2,7 +2,7 @@
 
 # JavaScript weekend REPS!
 
-Class: wdi-cc<br>
+Class: SEI<br>
 Type: Homework<br>
 Duration: A few hours<br>
 Created by: GA WDI Instructional staff<br>
