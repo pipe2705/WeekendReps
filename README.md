@@ -5,7 +5,7 @@
 Class: SEI<br>
 Type: Homework<br>
 Duration: A few hours<br>
-Created by: GA WDI Instructional staff<br>
+Created by: GA SEI Instructional staff<br>
 Competencies: Data types, loops, arrays, functions, scope, objects 
 
 ---
