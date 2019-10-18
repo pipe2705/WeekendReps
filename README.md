@@ -6,7 +6,7 @@ Class: SEI<br>
 Type: Homework<br>
 Duration: A few hours<br>
 Created by: GA SEI Instructional staff<br>
-Competencies: Data types, loops, arrays, functions, scope, objects 
+Competencies: Data types, loops, arrays 
 
 ---
 
@@ -312,7 +312,9 @@ const thomsCloset = [
 
 :red_circle: Commit.
 
+#### Congrats! You're done!
 
+<!--
 ## IV. Functions
 
 
@@ -662,4 +664,4 @@ The above console.log is **two levels** deep of combineCats.
 Your output should look something like:
 
 ![](https://i.imgur.com/zuTzm5X.png)
-
+-->
