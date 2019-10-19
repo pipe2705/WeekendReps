@@ -1,0 +1,38 @@
+A_Q&A_Answers.txt
+
+I. Variables & Datatypes
+
+A. Q + A
+
+1- How do we assign a value to a variable?
+	
+	We assign a value to a variable by using the "=" sign. 
+
+2-How do we change the value of a variable?
+
+	 We can change the value by reassigning it a new value after the "=" or by using an operator to change the value. 
+		
+3- How do we assign an existing variable to a new variable?
+
+	let oldVariable = 5;
+	let newVariable = oldVariable;
+
+	we can state the existing variable as the value of the new variable ie. "new variable" = "existing variable"
+
+4- Remind me, what are declare, assign, and define?
+	
+	They are the 3 required components for creating a variable. 
+	declare (what are we declaring? ie. var, let, const)
+	Assignment is the storing of a value to a variable.
+	Define is the value that we are stating or wanting that declaration to be named. 
+
+5- What is pseudocoding and why should you do it?
+	
+	It is the process of writting out the necessary steps to accomplish a certain goal in human understandable language.
+	You can then take this pseudocode and write actual code to execute. 
+
+6- What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+	
+	I think this is an "it depends" kind of answer. But generally you want to spend a lot of time thinking about the problem you're trying to solve or task you're trying to accomplish before you commit to writing code. But it depends on experience level, 
+	and the specific task at hand. 
+
