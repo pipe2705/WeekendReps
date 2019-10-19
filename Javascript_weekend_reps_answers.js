@@ -145,12 +145,32 @@ Adjust your code to add a message next to even numbers only that says: "<-- is a
 for (let d = 11; d<=4000 ; d += 3)
 
 { 
-	if ( d % 2 == 0 & d <=100) 
+	if (d % 2 == 0 & d <=100) 
 	console.log  (d + '<-- is an even number');
 }
 
+/* 
+C Give Me Five 
 
+For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
+*/
 
+for (let e = 11; e<=4000 ; e += 3)
+	{ 
+		if (e % 5 ===0 & e<=100)
+		console.log(" I found a " + e + " High Five!");
+}
+
+//Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three.
+
+for (let f = 10; f<=4000 ; f += 5)
+	
+	{ 
+		if (f % 5 === 0 & f <= 100)
+		console.log(" I found a " + f + ". High Five!");
+		if (f % 3 === 0 & f <= 100)
+			console.log(" I found a " + f + ". Three is a crowd");
+}
 
 
 
