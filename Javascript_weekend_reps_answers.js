@@ -1,7 +1,8 @@
 
 
- 
 /* 
+SECTION I 
+
 B STRINGS 
 
 1 - 
@@ -10,7 +11,8 @@ Assign it the value of the string "Hello World"
 Change the value of this variable to some number.
 Store the value of firstVariable in a new variable called secondVariable
 Change the value of secondVariable to any string.
-What is the value of firstVariable?*/
+What is the value of firstVariable?
+*/
 
 
 let firstVariable = "Hello World"; 
@@ -110,6 +112,29 @@ console.log( "Here are the keys!");
 else { 
 console.log( "Sorry, you're too young" );
 };
+
+/* Section II Loops 
+
+A. The basics
+Write a loop that will print out all the numbers from 0 to 10, inclusive.
+
+Write a loop that will print out all the numbers from 10 up to and including 400.
+
+Write a loop that will print out every third number starting with 11 and going no higher than 4000.
+*/
+
+for ( let a = 0; a <= 10; a++ ) {
+	console.log(a); 
+};
+
+for ( let b = 10; b <= 400; b++) {
+	console.log(b); 
+	};
+
+for (let c = 11; c <=4000; c+=3) { 
+	console.log(c);
+	};
+
 
 
 
