@@ -229,6 +229,18 @@ for (let i = 3; i < 1000; i++){
 
 console.log (sumOfMultiples()); 
 
+/* 
+SECTION III Arrays and Control Flow
+
+A. Talk About It
+1- What are the things in arrays called? 
+	Values or properties 
+2- Do Arrays guarantee those things will be in order? 
+	No
+3- Real life applications of arrays: 
+	Any sort of list like a log in user name list or a set of phone numbers or a list of names.. 
+
+
 
 
 
