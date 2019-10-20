@@ -198,7 +198,7 @@ function sum() {
 	let bank_account = 0; 
 	for( let i = 0; i<= 100; i++){
 
-		bank_account += i ; 
+		bank_account += i; 
 	}  
 		bank_account = bank_account * 2; 
 
