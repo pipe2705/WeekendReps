@@ -244,6 +244,22 @@ B. Create an array that contains 3  quotes and store it in a value called quotes
 
 let quotes = ["You is Kind", "You is Smart", "You is important"];
 
+/* Accessign Elements
+
+*/
+//Given the following array 
+const randomThings = [1, 10, "Hello", true]
+
+//How do you access the 1st element in the array?
+ //You access an array element by referring to the index number
+console.log(randomThings[0]);
+
+
+//Change the value of "Hello" to "World".
+
+randomThings[2] = "World";
+console.log(randomThings[2]);
+//Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
 
 
 
