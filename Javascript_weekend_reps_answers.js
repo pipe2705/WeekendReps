@@ -261,6 +261,8 @@ randomThings[2] = "World";
 console.log(randomThings[2]);
 //Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
 
+
+
 /*
 D. Change values
 Given the following array */
@@ -275,6 +277,41 @@ ourClass[4] = "Octocat"
 //Add a new element, "Cloud City" to the array.
 ourClass.push("Cloud City");
 console.log(ourClass);
+
+
+
+
+/*
+E. Mix it up
+
+Given the following array */
+
+const myArray = [5, 10, 500, 20]; 
+//Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+myArray.push("Egon", "More Things");
+console.log(myArray);
+
+//Remove the 5 from the beginning of the array.
+myArray.shift();
+console.log(myArray);
+
+//Add the string "Bob Marley" to the beginning of the array.
+
+myArray.unshift("Bob Marley");
+console.log(myArray); 
+
+//Remove the string of your choice from the end of the array.
+myArray.pop([5]); 
+console.log(myArray);
+
+//Reverse this array using Array.prototype.reverse(). Did you mutate the array? 
+// What does mutate mean? --> It means I had to create a new variable to state the reversed array. 
+//Did the .reverse() method return anything?
+myReversedArray = myArray.reverse();
+console.log(myReversedArray); 
+
+
+
 
 
 
