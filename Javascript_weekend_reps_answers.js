@@ -240,6 +240,11 @@ A. Talk About It
 3- Real life applications of arrays: 
 	Any sort of list like a log in user name list or a set of phone numbers or a list of names.. 
 
+B. Create an array that contains 3  quotes and store it in a value called quotes. */ 
+
+let quotes = ["You is Kind", "You is Smart", "You is important"];
+
+
 
 
 
