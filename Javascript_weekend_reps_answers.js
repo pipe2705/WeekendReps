@@ -172,9 +172,39 @@ for (let f = 10; f<=4000 ; f += 5)
 			console.log(" I found a " + f + ". Three is a crowd");
 }
 
+/*
+D. Savings account
+Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+*/
 
+/* function sum(arr){
 
+	let bank_account = 0; 
+	for( let i = 0; i<arr.length; i++){
 
+		bank_account = bank_account + arr[i]; 
+	}  
+	console.log(bank_account); 
+}
+sum([1,2,3,4,5,6,7,8,9,10]); 
+
+/*
+You got a bonus! Your pay is now doubled each week. 
+Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+*/
+
+function sum() {
+
+	let bank_account = 0; 
+	for( let i = 0; i<= 100; i++){
+
+		bank_account += i ; 
+	}  
+		bank_account = bank_account * 2; 
+
+	console.log(bank_account); 
+}
+sum(); 
 
 
 
