@@ -310,7 +310,24 @@ console.log(myArray);
 myReversedArray = myArray.reverse();
 console.log(myReversedArray); 
 
+/* F. Biggie Smalls
 
+Create a variable that contains an integer.
+
+Write an if ... else statement that:
+
+console.log()s "little number" if the number is entered is less than 100
+
+console.log()s big number if the number is greater than or equal to 100.
+*/
+
+let myIntVar = 99; 
+
+if (myIntVar < 100) {
+	console.log("little number"); 
+} 
+else if (myIntVar >= 100) { 
+console.log("big number")}
 
 
 
