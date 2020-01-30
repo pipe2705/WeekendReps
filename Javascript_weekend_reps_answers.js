@@ -44,7 +44,7 @@ Using the provided variable definitions, replace the blanks so that all log stat
 Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console.
 */
 
-const a = 4;
+  const a = 4;
   const b = 53;
   const c = 57;
   const d = 16;
